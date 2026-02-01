@@ -1,0 +1,43 @@
+DEVOPS
+
+1. devops --> intersection of dev & Ops
+
+
+2. typical software release process
+				+----------------+
+--------------------------------| initial launch |
+				+----------------+
+				
+idea --> requirements --> code --> test it --> build nd package --> deploy it --> operate nd monitor
+
+3. software versioning 
+	1.4.2
+    major|	
+
+4. continuous delivery
+			
+			idea --> implement --> test --> build
+			 ^				  |
+			 |				  v
+			 +---------- observe	 <----- deploy 	
+			 
+5. DevOps 
+	- devops is about making this process [ continuous delivery ]
+		- making the process fast
+		- with minimal bugs
+		
+6. Challenges DevOps tries to solve
+	1. Frictions and roadblocks in release process
+		- slowing down the process
+		- too much effort
+		- errors slipping through
+	    -> miscommunications and lack of collaboration
+	    -> conflict of interest
+	    -> security
+	    -> application testing
+	    
+7. Dev Sec Ops
+
+	DevOps     --> removing any roadblocks
+	DevSecOps  --> highlight the importance of integrating security
+	
