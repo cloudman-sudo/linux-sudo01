@@ -41,3 +41,52 @@ idea --> requirements --> code --> test it --> build nd package --> deploy it --
 	DevOps     --> removing any roadblocks
 	DevSecOps  --> highlight the importance of integrating security
 	
+_____________________________________________________________________________________________________________________________________________
+
+Software development lifecycle - SDLC
+1. Plan
+2. Implement
+3. Test
+4. Deploy
+5. Maintain
+
+complete software development process
+1. Programming
+2. Software Testing
+3. Release of Software
+	- build application
+	- run on servers
+	- upgrade existing software
+4. operations
+	- run software on production
+
+# need by operations:	
+	-no downtime
+	-handle huge traffic
+
+Waterfall vs Agile
+	Traditional waterfall:
+		- requirements
+		- development
+		- testing
+		- operations
+		
+		# ineffective process
+		# over time new requirements may arise
+		# many places of failure and miscommunication
+		# no fast
+		
+	Agile:
+		# benefits of agile
+		# speed of development, testing and deployment cycles
+			# each feature get tested, deployed
+			# immediate feedback
+			# fast development and deployment process
+			# scrum and kanban --specific implementations
+			
+		# continuous integration
+		# continuous delivery
+		
+
+			
+			

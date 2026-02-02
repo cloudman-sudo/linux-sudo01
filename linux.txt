@@ -1,0 +1,12 @@
+Linux
+1.intro to operating system
+2. virtualization
+3. linux file system
+4. main linux commands
+5. package manager
+6. working with vim editor
+7. users and permissions
+8. shell scripting
+9. environment variables
+10. networking
+11. SSH - secure shell
