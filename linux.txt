@@ -10,3 +10,110 @@ Linux
 9. environment variables
 10. networking
 11. SSH - secure shell
+
+Operating System
+
+OS
+	- Translator
+	- Manages Resources among applications
+	- isolated content of applications
+	
+OS tasks
+
+1. Resource allocation and management
+	- CPU | Memory | storage | I/O devices
+
+    # CPU
+	  - Process Management
+	  What is process
+	  - small unit that executes on the computer
+	  - each process has own isolated space
+	  
+	  1 CPU
+	   - 1 process at a time
+	   - 1 cpu can only process 1 task at a time
+	   - cpu is switching content so fast that you don't notice it
+	  
+	  Multiple CPU
+	   - Dual-core = 2 CPUs
+	   - Quad-core = 4 CPUs
+	   the more cpu's the faster the applications work
+   # Memory
+   	- Memory Management
+   	  - allocating working memory
+   	  - every application needs some data to work
+   	  - RAM is limited on the computer
+   	  
+   	 - Memory Swapping
+   	   - OS swaps memory between applications
+   	   - one app becomes inactive, new one gets resources
+   	   - slow down the computer
+   	   
+   	   
+   	   Memory swapping
+   	   
+   	   +-----+              swap-out
+   	   | Ram | Process P1 ------------------> 
+   	   +-----+
+   	   
+   	   
+	   +-----+       swap-out
+   	   | Ram |------------------> Process P1
+   	   +-----+
+   	   
+   	   
+   	   +-----+       swap-out		 +---------+
+   	   | Ram |------------------> Process P1 | Storage | (Secondary memory)
+   	   +-----+				 +---------+	
+   	   
+   	   
+   	   
+   	   +-----+       swap-out		 +---------+
+   	   | Ram | -----------------> 		 | Storage | Process P1
+   	   +-----+ <---------------- Process P2  +---------+	
+   	   		swap-in
+   	   		
+   	   		
+
+	   +-----+       swap-out		 +---------+
+   	   | Ram | -----------------> 		 | Storage | Process P1
+   	   +-----+ <----------------             +---------+	
+   	   Process P2		 swap-in
+   	   
+   	   	- that process takes some time
+   	   	
+     RAM = working memory
+     - actively processing data
+     
+    # Storage Management
+     - also called "secondary memory"
+     - persisting data long-term
+     - hard drive
+     
+     vs code ---- loaded into memory ----> RAM
+     
+     Storage <------save permanently -- RAM [ VS code ]
+     
+     RAM <------load all the saved data --- storage
+     
+3. Manage File System
+     	- stored in a structured way
+     	- in Unix systems [ mac os, linux ]  : tree file system
+     		[/]
+     		 |----[]
+     		 |----[]
+     	- in windows OS: multiple root folders
+     		[A:]			[C:]
+     		 |-----[]		 |-----[]
+     		 |-----[]		 |-----[]
+     		 
+4. Management of I/O Devices
+	- monitor, keyboard, mouse, printer, external hard-drive
+	- OS knows how to handle and translate interactions between apps and devices
+
+5. Security and networking
+	
+	
+	
+     	
+	
